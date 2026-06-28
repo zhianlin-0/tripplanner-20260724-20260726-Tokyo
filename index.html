@@ -115,7 +115,7 @@
                 <span class="w-1.5 h-1.5 rounded-full bg-gray-400"></span>
                 <span id="cloud-status-text">本機儲存</span>
             </div>
-            <button onclick="openHeaderModal()" class="bg-white/80 hover:bg-white text-coral-500 text-[10px] font-bold px-3 py-1.5 rounded-full border border-sand-200/80 shadow-sm transition-all backdrop-blur-sm font-sans">✏️ 編輯抬頭</button>
+            <button onclick="openHeaderModal()" class="bg-white/80 hover:bg-white text-coral-500 text-[10px] font-bold px-3 py-1.5 rounded-full border border-sand-200/80 shadow-sm transition-all backdrop-blur-sm font-sans">✏️ 編輯</button>
         </div>
         <div class="max-w-2xl mx-auto">
             <span id="display-top-tag" class="text-[10px] uppercase tracking-[0.4em] text-coral-500 font-bold block mb-2">Princess Exhibition Tour 👸🏻🎨</span>
@@ -141,14 +141,14 @@
             <div class="text-center max-w-md mx-auto">
                 <h2 id="title-itinerary" class="font-serif text-xl md:text-2xl font-semibold text-sand-800">Collecting Moments 🖼️</h2>
                 <p id="sub-itinerary" class="text-[10px] text-coral-500 font-bold mt-0.5 uppercase tracking-widest">Capturing the gentle side of life, one step at a time.</p>
-                <p class="text-[11px] text-gray-400 font-light mt-1.5">點選 ▲▼ 調整展覽/行程順序，雲端與試算表即時對齊！</p>
+                <p class="text-[11px] text-gray-400 font-light mt-1.5">點選 ▲▼ 調整行程順序！</p>
             </div>
             <div class="flex items-center justify-center gap-2 overflow-x-auto py-1 no-scrollbar max-w-xl mx-auto px-2">
                 <div id="dynamic-day-buttons" class="flex gap-2 items-center"></div>
                 <button onclick="addNewDay()" class="shrink-0 bg-coral-50 text-coral-600 hover:bg-coral-100 px-3 py-2 rounded-full text-xs font-bold border border-coral-100">➕ 天數</button>
             </div>
             <div class="flex flex-wrap justify-center gap-3">
-                <button onclick="openItineraryModal()" class="bg-gradient-to-r from-coral-400 to-coral-500 hover:from-coral-50 hover:to-coral-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm">➕ 新增行程項目</button>
+                <button onclick="openItineraryModal()" class="bg-gradient-to-r from-coral-400 to-coral-500 hover:from-coral-50 hover:to-coral-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm">➕ 行程</button>
                 <button id="delete-day-btn" onclick="deleteCurrentDay()" class="bg-white text-rose-500 text-xs font-semibold px-4 py-2 rounded-full border border-rose-200 shadow-sm"></button>
             </div>
             <div class="max-w-xl mx-auto"><div class="relative pl-6 border-l border-coral-200 space-y-6" id="itinerary-timeline-container"></div></div>
