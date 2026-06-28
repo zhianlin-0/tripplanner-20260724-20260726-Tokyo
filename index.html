@@ -204,7 +204,7 @@
                     <div class="grid grid-cols-2 gap-2 items-end">
                         <div>
                             <label class="block text-[9px] md:text-[10px] font-bold text-gray-400 mb-1">付款人</label>
-                            <select id="expense-payer" class="w-full text-xs border border-sand-200 rounded-lg px-2 py-1.5 bg-sand-50/50 outline-none"></select>
+                            <select id="expense-payer" class="w-full text-xs border border-sand-200 rounded-lg px-2.5 py-1.5 bg-sand-50/50 outline-none"></select>
                         </div>
                         <div>
                             <label class="block text-[9px] md:text-[10px] font-bold text-gray-400 mb-1">分攤模式</label>
@@ -338,7 +338,7 @@
 
     <!-- JAVASCRIPT LOCAL ENGINE -->
     <script>
-        const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz0gDA9x1MFM-LrldA77EDlNXQmaGLbbz7mtSKAPrUjpDWRgKWdVCJzANFshXOzi3Cv/exec"; 
+        const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz0gDA9x1MFM-LrldA77EDlNXQmaGLbbz7mtSKAPrUjpDWRgKWdVCJzANFshXOzi3Cv/exec"; 
         const LOCAL_STORAGE_KEY = 'wanderlust_tokyo_standalone_v1';
 
         // 目前輸入框所選擇的幣別狀態
@@ -369,7 +369,7 @@
         };
 
         let db = null;
-        let useFirebase = false; 
+        let useFirebase = false; 
         let isSyncing = false;
 
         // 設定目前輸入面板的幣別
